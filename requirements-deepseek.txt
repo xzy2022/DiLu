@@ -1,0 +1,14 @@
+# Minimal Windows/Python 3.10 runtime for zero-shot driving.
+# RAG/visualization additionally need upstream requirements.txt (Chroma/Gradio).
+gymnasium==0.28.1
+highway-env==1.8.2
+langchain==0.0.335
+openai==0.28.1
+matplotlib==3.7.1
+numpy==1.24.3
+PyYAML==6.0.1
+pydantic==1.10.13
+tenacity==8.2.3
+rich==13.7.1
+moviepy==1.0.3
+tiktoken==0.5.2

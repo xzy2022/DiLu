@@ -1,0 +1,17 @@
+############ Large language model config ############
+OPENAI_API_TYPE: 'deepseek'
+DEEPSEEK_BASE_URL: 'https://api.deepseek.com'
+OPENAI_CHAT_MODEL: 'deepseek-chat' # 默认启动模型
+
+############### DiLu settings ############
+reflection_module: False # True or False
+few_shot_num: 3 # 0 for zero-shot
+episodes_num: 3 # run episodes
+memory_path: 'memories/20_mem'
+result_folder: 'results'
+
+############ Highway-env config ############
+simulation_duration: 30 # step (aligned with @2024_ICLR_DiLu benchmark full episode evaluation)
+vehicle_count: 15
+other_vehicle_type: "highway_env.vehicle.behavior.IDMVehicle" #other types are: "highway_env.vehicle.behavior.DefensiveVehicle" or "highway_env.vehicle.behavior.AggressiveVehicle"
+vehicles_density: 2.0
